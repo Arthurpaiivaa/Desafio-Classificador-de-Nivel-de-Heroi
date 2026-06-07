@@ -23,10 +23,10 @@ else if (xp <=6000) {
 else if (xp <= 7000) {
     nivel = "Diamante";
 }
-else if (p <= 8000) {
+else if (xp <= 8000) {
     nivel = "Imortal";
 }
 else{
-    nivel = "Radiante"
+    nivel = "Radiante";
 } 
 console.log(nome + " está no nível de " + nivel)
