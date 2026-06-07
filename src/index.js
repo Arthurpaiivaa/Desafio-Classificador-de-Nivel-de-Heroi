@@ -1,32 +1,32 @@
-let nome = "Arthur"
-let Xp = 1000
-let nivel = ""
+let nome = "Arthur";
+let xp = 5001;
+let nivel = "";
 
-if (Xp <= 1000) {
-    nivel = "Ferro"
+if (xp <= 1000) {
+    nivel = "Ferro";
 }   
-else if (1001 <= 2000) {
-    nivel = "Bronze"
+else if (xp <= 2000) {
+    nivel = "Bronze";
 } 
-else if (2001 <= 3000) {
-    nivel = "Prata"
+else if (xp <= 3000) {
+    nivel = "Prata";
 }  
-else if (3001 <= 4000) {
-    nivel = "Ouro"
+else if (xp <= 4000) {
+    nivel = "Ouro";
 }
-else if (4001 <= 5000) {
-    nivel = "Platina"
+else if (xp <= 5000) {
+    nivel = "Platina";
 }
-else if (5001 <=6000) {
-    nivel = "Ascendente"
+else if (xp <=6000) {
+    nivel = "Ascendente";
 }
-else if (6001 <= 7000) {
-    nivel = "Diamante"
+else if (xp <= 7000) {
+    nivel = "Diamante";
 }
-else if (7001 <= 8000) {
-    nivel = "Imortal"
+else if (p <= 8000) {
+    nivel = "Imortal";
 }
-else if (8001 <= 9000) {
+else{
     nivel = "Radiante"
 } 
 console.log(nome + " está no nível de " + nivel)
